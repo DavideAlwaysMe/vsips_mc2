@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gaussianBeam>
+<gaussianBeam version="1.1">
+    <bench id="0">
+        <wavelength>1.064e-06</wavelength>
+        <leftBoundary>-0.1</leftBoundary>
+        <rightBoundary>0.7</rightBoundary>
+        <targetBeam id="0">
+            <position>0.6</position>
+            <waist>0.00015</waist>
+            <positionTolerance>0.1</positionTolerance>
+            <waistTolerance>0.05</waistTolerance>
+            <minOverlap>0.98</minOverlap>
+            <overlapCriterion>0</overlapCriterion>
+        </targetBeam>
+        <beamFit id="0">
+            <name>Fit0</name>
+            <dataType>1</dataType>
+            <color>0</color>
+            <data id="0">
+                <position>0</position>
+                <value>0</value>
+            </data>
+            <data id="1">
+                <position>0</position>
+                <value>0</value>
+            </data>
+            <data id="2">
+                <position>0</position>
+                <value>0</value>
+            </data>
+        </beamFit>
+        <beamFit id="1">
+            <name>Fit_x</name>
+            <dataType>1</dataType>
+            <color>0</color>
+            <data id="0">
+                <position>0.231</position>
+                <value>0.0008195</value>
+            </data>
+            <data id="1">
+                <position>0.256</position>
+                <value>0.001034</value>
+            </data>
+            <data id="2">
+                <position>0.281</position>
+                <value>0.0012815</value>
+            </data>
+            <data id="3">
+                <position>0.306</position>
+                <value>0.001512</value>
+            </data>
+            <data id="4">
+                <position>0.331</position>
+                <value>0.001727</value>
+            </data>
+            <data id="5">
+                <position>0.356</position>
+                <value>0.001974</value>
+            </data>
+            <data id="6">
+                <position>0</position>
+                <value>0</value>
+            </data>
+            <data id="7">
+                <position>0</position>
+                <value>0</value>
+            </data>
+        </beamFit>
+        <beamFit id="2">
+            <name>Fit_y</name>
+            <dataType>1</dataType>
+            <color>0</color>
+            <data id="0">
+                <position>0.231</position>
+                <value>0.0007535</value>
+            </data>
+            <data id="1">
+                <position>0.256</position>
+                <value>0.0009625</value>
+            </data>
+            <data id="2">
+                <position>0.281</position>
+                <value>0.0011605</value>
+            </data>
+            <data id="3">
+                <position>0.306</position>
+                <value>0.001364</value>
+            </data>
+            <data id="4">
+                <position>0.331</position>
+                <value>0.001573</value>
+            </data>
+            <data id="5">
+                <position>0.356</position>
+                <value>0.0017765</value>
+            </data>
+        </beamFit>
+        <opticsList>
+            <inputBeam id="2">
+                <waist>7.33605e-05</waist>
+                <index>1</index>
+                <M2>1</M2>
+                <position>0.143853</position>
+                <name>w0</name>
+                <absoluteLock>1</absoluteLock>
+            </inputBeam>
+        </opticsList>
+    </bench>
+    <view id="0" bench="0">
+        <horizontalRange>0.6</horizontalRange>
+        <verticalRange>0.002</verticalRange>
+        <origin>-0.100161</origin>
+        <showTargetBeam id="0">0</showTargetBeam>
+    </view>
+</gaussianBeam>
